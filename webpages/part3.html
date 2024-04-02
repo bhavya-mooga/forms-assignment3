@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Tax Calculator</title>
+    <link rel="stylesheet" href="/css/part3.css">
+</head>
+
+<body>
+    <!-- Fieldset containing the main content -->
+    <form>
+        <fieldset>
+            <!-- Top section with header and navigation -->
+            <div id="top">
+                <h1>Income Tax Calculator</h1>
+                <!-- Navigation menu -->
+                <nav>
+                    <ul>
+                        <li><a href="/index.html">Sales tax calculator</a></li>
+                        <li><a href="/webpages/part2.html">Change Calculator</a></li>
+                        <li><a href="/webpages/part3.html">Income Tax Calculator</a></li>
+                        <li><a href="/webpages/part4.html">Reservation request</a></li>
+                    </ul>
+                </nav>
+            </div><br>
+            <!-- Input field for user to enter taxable income -->
+            <label>Enter Taxable income: </label>
+            <input type="text" id="income" name="income" placeholder="Enter the taxable income">
+            <input type="button" id="calculate" name="calculate" value="Calculate" onclick="processEntry()"><br><br>
+            <!-- Display area for calculated income tax -->
+            <label>Income Tax owed: </label>
+            <input type="number" id="taxResult" name="taxResult" disabled><br>
+            <!-- Footer section -->
+            <footer>
+                <p>Copyright © "Bhavya Sai Mooga - N01651100" 2024</p>
+            </footer>
+        </fieldset>
+    </form>
+    <!-- JavaScript file inclusion -->
+    <script src="../js/part3.js"></script>
+</body>
+
+</html>

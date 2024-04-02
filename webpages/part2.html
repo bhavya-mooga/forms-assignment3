@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Calculator</title>
+    <link rel="stylesheet" href="/css/part2.css">
+</head>
+
+<body>
+    <!-- Fieldset containing the main content -->
+    <fieldset>
+        <!-- Form for input fields -->
+        <form>
+            <!-- Top section with header and navigation -->
+            <div id="top">
+                <h1>Change Calculator</h1>
+                <!-- Navigation menu -->
+                <nav>
+                    <ul>
+                        <li><a href="/index.html">Sales tax calculator</a></li>
+                        <li><a href="/webpages/part2.html">Change Calculator</a></li>
+                        <li><a href="/webpages/part3.html">Income Tax Calculator</a></li>
+                        <li><a href="/webpages/part4.html">Reservation request</a></li>
+                    </ul>
+                </nav>
+            </div><br>
+            <!-- Input field for user to enter amount -->
+            <label for="userInput">Enter amount of change due (0-99):</label>
+            <input type="number" id="userInput" placeholder="Enter the amount" required>
+            <button type="button" onclick="processEntry()">Calculate</button>
+            <!-- Display area for calculated results -->
+            <div>
+                <label>Quarters :</label>
+                <input type="number" Name="number" id="quarters" disabled>
+                <br>
+                <label>Dimes :</label>
+                <input type="number" Name="number" id="dimes" disabled>
+                <br>
+                <label>Nickels :</label>
+                <input type="number" Name="number" id="nickels" disabled>
+                <br>
+                <label>Pennies :</label>
+                <input type="number" Name="number" id="pennies" disabled>
+                <br>
+            </div>
+        </form>
+        <!-- Footer section -->
+        <footer>
+            <p id="copyright">Copyright © Bhavya Mooga N01651100 2024</p>
+        </footer>
+    </fieldset>
+    <!-- JavaScript file inclusion -->
+    <script src="/js/part2.js"></script>
+</body>
+
+</html>

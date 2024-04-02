@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales tax calculator</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+
+    <!-- Fieldset containing the main content -->
+    <fieldset>
+        <!-- Top section with header and navigation -->
+        <div id="top">
+            <h1>Sales Tax Calculator</h1>
+            <!-- Navigation menu -->
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Sales tax calculator</a></li>
+                    <li><a href="/webpages/part2.html">Change Calculator</a></li>
+                    <li><a href="/webpages/part3.html">Income Tax Calculator</a></li>
+                    <li><a href="/webpages/part4.html">Reservation request</a></li>
+                </ul>
+            </nav>
+            <!-- Subheading -->
+            <h3>Enter Subtotal and Tax rate and Click "Calculate"</h3>
+        </div><br>
+
+        <!-- Form for input fields -->
+        <form>
+            <label>SubTotal :</label>
+            <input type="number" Name="number" id="subtotal" placeholder="Enter subtotal" required>
+            <br>
+            <label>Tax Rate :</label>
+            <input type="number" Name="number" id="taxRate" placeholder="Enter tax rate" required>
+            <br>
+            <label>Sales Tax :</label>
+            <input type="number" Name="number" id="salestax" disabled>
+            <br>
+            <label>Total :</label>
+            <input type="number" Name="number" id="Total" disabled>
+            <br>
+            <!-- Buttons for calculation and clearing -->
+            <button type="button" id="calculateBtn">Calculate</button>
+            <button type="button" id="clearBtn">Clear</button>
+        </form>
+
+        <!-- Footer section -->
+        <footer>
+            <p id="copyright">Copyright © Bhavya Mooga N01651100 2024</p>
+        </footer>
+    </fieldset>
+
+    <!-- JavaScript file inclusion -->
+    <script src="/js/index.js"></script>
+
+</body>
+
+</html>

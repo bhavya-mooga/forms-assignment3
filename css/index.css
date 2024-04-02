@@ -1,0 +1,50 @@
+/* Styling for h1 (header) */
+h1 {
+    color: rgb(6, 6, 86);
+    text-align: center;
+    font-size: xxx-large;
+}
+
+/* Styling for h3 (subheading) */
+h3 {
+    color: rgb(6, 6, 86);
+    text-align: center;
+    font-size: x-large;
+}
+
+/* Styling for the entire form */
+form {
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 20%;
+    font-size: x-large;
+}
+
+/* Styling for the top section */
+#top {
+    background-color: rgb(235, 220, 54);
+    padding: 1%;
+}
+
+/* Styling for the fieldset */
+fieldset {
+    border-color: blue;
+    background-color: rgb(225, 224, 222);
+}
+
+/* Styling for the footer */
+footer {
+    padding: 1%;
+}
+
+/* Styling for the navigation menu */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+/* Styling for individual navigation menu items */
+nav ul li {
+    margin: 0 10px;
+}
